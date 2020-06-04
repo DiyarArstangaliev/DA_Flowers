@@ -1,0 +1,49 @@
+.header {
+  grid-area: h;
+  background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+}
+
+.top {
+  display: flex;
+  width: 100%;
+}
+
+.headerNav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.active {
+  color: brown;
+}
+
+.link {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  margin: 0 5%;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bot {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: url("./bg-header.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.logo img {
+  width: 150px;
+  line-height: 100px;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-style: italic;
+  margin: -40px 0 0 50px;
+}
