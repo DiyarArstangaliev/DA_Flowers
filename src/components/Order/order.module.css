@@ -1,0 +1,38 @@
+.content{
+  background-image: url("./bg__2.jpg");
+  background-size: cover;
+  height: 100%;
+  font-family: "Gothic A1", sans-serif;
+  color: #f9f9ff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.text {
+  font-size: 40px;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.social {
+  font-size: 30px;
+}
+
+.social img{
+  width: 30px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.social a{
+  text-decoration: none;
+  text-transform: none;
+  color: #f9f9ff;
+}
+
+.contact {
+  margin-top: 50px;
+  font-size: 26px;
+}

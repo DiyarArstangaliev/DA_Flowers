@@ -1,0 +1,16 @@
+@media only screen and (max-width: 430px){
+    .app-wrapper {
+        display: grid;
+        width: 100%;
+        max-height: 930px;
+        grid-template-areas:
+            "h"
+            "c"
+            "n";
+        grid-template-rows: 60px 800px 70px;
+        font-family: 'Gothic A1', sans-serif;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.66)), url('./bg.jpg');
+        background-size: cover;
+        background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    }
+}

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 430px){
+    .app-wrapper-content {
+        background-image: url("./bg-profile — adap.jpg");
+        padding: 10px;
+        width: 100%;
+        height: 790px;
+    }
+    .content-welcome {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
+    .content-title {
+        font-size: 60px;
+        margin: 40px 0;
+    }
+
+    .content-subtitle {
+        font-size: 24px;
+    }
+
+    .content-button {
+        margin: 60px 20px;
+    }
+
+    .content-button-text {
+        border-radius: 7px;
+        border: #2f3640 1px solid;
+        padding: 30px 30px;
+        background-color: #a3a3a1;
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,48 @@
+@media only screen and (max-width: 430px){
+    .nav {
+        display: flex;
+        height: 70px;
+        width: 430px;
+        z-index: 1000;
+    }
+
+    .nav__ava img {
+        width: 60px;
+        margin: 5px;
+    }
+
+    .nav__items {
+        display: flex;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .nav__item {
+        width: 60px;
+        height: 50px;
+        margin: 5px;
+        line-height: 1px;
+        box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.10);
+        border-radius: 7px;
+    }
+
+    .nav__item a {
+        vertical-align: middle;
+        display: table-cell;
+        font-size: 10px;
+        width: 60px;
+        height: 50px;
+        padding: 0;
+        margin: auto;
+        border-radius: 7px;
+    }
+
+    .nav__item a::before {
+        height: 70px;
+        color: wheat;
+    }
+
+    .nav__item a::after {
+        height: 70px;
+    }
+}
